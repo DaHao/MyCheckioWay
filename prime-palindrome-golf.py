@@ -1,0 +1,1 @@
+golf=lambda n:next(p for p in range(n,98690)if all(p%i for i in range(2,p)) and str(p)==str(p)[::-1] and p>n)
